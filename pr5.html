@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>необязательные аргументы</title>
+
+    <script type="text/javascript">
+		function print(msg, count)
+		{
+			if(count == undefined){
+			count = 3;
+			}
+			for(var i = 0; i < count; i++)
+			{
+			document.write("<p>"+msg);
+			}
+			document.write("<hr/>");
+		}
+		print("hello");
+		print("word", 7);
+
+    </script>
+
+</head>
+<body>
+</body>
+</html>
